@@ -15,10 +15,10 @@ Package.onUse(function (api) {
   api.use('ecmascript');
   api.use([
     'templating',
-    'aldeed:simple-schema',
-    'aldeed:autoform',
-    'gildaspk:autoform-materialize',
-    'aldeed:template-extension'
+    'aldeed:simple-schema@1.5.3',
+    'aldeed:autoform@5.8.1',
+    'gildaspk:autoform-materialize@0.0.26',
+    'aldeed:template-extension@4.0.0'
   ], ['client']);
   api.addFiles([
     'afFormGroup_materialize_withHelp.html',
