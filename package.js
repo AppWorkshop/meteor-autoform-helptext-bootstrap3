@@ -16,7 +16,7 @@ Package.onUse(function (api) {
   api.use([
     'templating',
     'aldeed:autoform@6.2.0',
-    'mozfet:autoform-materialize',
+    'mozfet:autoform-materialize@2.0.16',
     'aldeed:template-extension@4.0.0'
   ], ['client']);
   api.addFiles([
