@@ -1,8 +1,8 @@
-Extends [gildaspk:autoform-materialize](https://github.com/djhi/meteor-autoform-materialize/) to allow help text to be
+Extends [mozfet:autoform-materialize](https://github.com/mozfet/meteor-autoform-materialize) to allow help text to be
 defined in the schema.
 
 It works by using [aldeed:template-extension]() to override the
-[afFormGroup_materialize](https://github.com/djhi/meteor-autoform-materialize/blob/master/components/afFormGroup/afFormGroup.html) template.
+[afFormGroup_materialize](https://github.com/mozfet/meteor-autoform-materialize/blob/master/components/afFormGroup/afFormGroup.html) template.
 
 ### Installation
 

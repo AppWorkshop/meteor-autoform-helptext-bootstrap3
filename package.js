@@ -1,8 +1,8 @@
 Package.describe({
   name: 'appworkshop:autoform-materialize-helptext',
-  version: '1.0.1',
+  version: '1.1.0',
   // Brief, one-line summary of the package.
-  summary: 'Adds help text to gildaspk:autoform-materialize',
+  summary: 'Adds help text to mozfet:autoform-materialize',
   // URL to the Git repository containing the source code for this package.
   git: 'https://github.com/appworkshop/meteor-autoform-materialize-helptext',
   // By default, Meteor will default to using README.md for documentation.
@@ -15,9 +15,8 @@ Package.onUse(function (api) {
   api.use('ecmascript');
   api.use([
     'templating',
-    'aldeed:simple-schema@1.5.3',
-    'aldeed:autoform@5.8.1',
-    'gildaspk:autoform-materialize@0.0.26',
+    'aldeed:autoform@6.2.0',
+    'mozfet:autoform-materialize',
     'aldeed:template-extension@4.0.0'
   ], ['client']);
   api.addFiles([
