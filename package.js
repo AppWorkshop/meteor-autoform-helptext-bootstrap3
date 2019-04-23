@@ -4,7 +4,7 @@ Package.describe({
   // Brief, one-line summary of the package.
   summary: 'Adds help text to aldeed:autoform for bootstrap3 forms',
   // URL to the Git repository containing the source code for this package.
-  git: 'https://github.com/appworkshop/meteor-autoform-helptext',
+  git: 'https://github.com/AppWorkshop/meteor-autoform-helptext-bootstrap3.git',
   // By default, Meteor will default to using README.md for documentation.
   // To avoid submitting documentation, set this field to null.
   documentation: 'README.md'
