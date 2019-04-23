@@ -1,12 +1,12 @@
-Extends [mozfet:autoform-materialize](https://github.com/mozfet/meteor-autoform-materialize) to allow help text to be
+Extends [aldeed:autoform](https://github.com/aldeed/meteor-autoform) to allow help text to be
 defined in the schema.
 
 It works by using [aldeed:template-extension]() to override the
-[afFormGroup_materialize](https://github.com/mozfet/meteor-autoform-materialize/blob/master/components/afFormGroup/afFormGroup.html) template.
+[afFormGroup_bootstrap3](https://github.com/aldeed/meteor-autoform/blob/devel/templates/bootstrap3/components/afFormGroup/afFormGroup.html) template.
 
 ### Installation
 
-    meteor add appworkshop:autoform-materialize-helptext
+    meteor add appworkshop:autoform-helptext-bootstrap3
 
 ### Usage
 
@@ -28,9 +28,9 @@ property of the schema item e.g.
 
     ```css
     span.form-field-help {
-      color: @secondary;
-      font-size: 0.8rem;
-      margin-top: -15px;
+      /*color: @secondary;*/
+      font-size: 0.8em;
+      margin-top: -0.5em;
       display: block;
       margin-left: 1em;
     }
