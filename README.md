@@ -1,13 +1,15 @@
 Extends [aldeed:autoform](https://github.com/aldeed/meteor-autoform) to allow help text to be
 defined in the schema.
 
-    ```
-        autoform: {
-          help: "This is the help text"
-        }
-    ```
+This:
 
-becomes:
+```json
+    "autoform": {
+      "help": "This is the help text"
+    }
+```
+
+becomes this:
 
 ![autoform_help_text](https://user-images.githubusercontent.com/1751645/56561722-5aabdf80-65da-11e9-959e-09cfd730581b.png)
 
