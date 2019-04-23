@@ -1,6 +1,16 @@
 Extends [aldeed:autoform](https://github.com/aldeed/meteor-autoform) to allow help text to be
 defined in the schema.
 
+    ```json
+        autoform: {
+          help: "This is the help text"
+        }
+    ```
+
+becomes:
+
+![autoform_help_text](https://user-images.githubusercontent.com/1751645/56561722-5aabdf80-65da-11e9-959e-09cfd730581b.png)
+
 It works by using [aldeed:template-extension]() to override the
 [afFormGroup_bootstrap3](https://github.com/aldeed/meteor-autoform/blob/devel/templates/bootstrap3/components/afFormGroup/afFormGroup.html) template.
 
