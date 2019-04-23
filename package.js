@@ -14,7 +14,7 @@ Package.onUse(function (api) {
   api.versionsFrom('1.6.0.1');
   api.use('ecmascript');
   api.use([
-    'templating',
+    'templating@1.3.2',
     'aldeed:autoform@6.2.0',
     'aldeed:template-extension@4.0.0'
   ], ['client']);
